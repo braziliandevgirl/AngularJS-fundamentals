@@ -16,7 +16,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Directives Masterclass introductory',
                     creatorName: 'Bob Smith',
-                    duration: '1 hr',
+                    duration: 1,
                     level: 'Advanced',
                     abstract: 'In this sesison will learn the ins and outs of directives',
                     upVoteCount: 0
@@ -24,7 +24,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Scopes for run and profit',
                     creatorName: 'John Doe',
-                    duration: '30 mins',
+                    duration: 2,
                     level: 'Introductory',
                     abstract: 'This section will take a closer look at scopes',
                     upVoteCount: 0
@@ -32,7 +32,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Well behaved controller',
                     creatorName: 'Jane Doe',
-                    duration: '2 hours',
+                    duration: 4,
                     level: 'Intermediate',
                     abstract: 'Controllers are the beggining of everything Angularn does. Learn how to craft controllers that will win the respect of your friends and neighbors',
                     upVoteCount: 0
