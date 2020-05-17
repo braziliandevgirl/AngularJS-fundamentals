@@ -1,6 +1,7 @@
 eventsApp.controller('EventController', 
     function EventController($scope) {
 
+        $scope.sortorder ='name';
         $scope.event = {
             name: 'Angular Boot Camp',
             date: '1/1/2013',
@@ -13,7 +14,7 @@ eventsApp.controller('EventController',
             imageUrl: '/img/angularjs-logo.png',
             sessions: [
                 {
-                    name: 'Directives Masterclass',
+                    name: 'Directives Masterclass introductory',
                     creatorName: 'Bob Smith',
                     duration: '1 hr',
                     level: 'Advanced',
